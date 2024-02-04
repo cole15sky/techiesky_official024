@@ -13,8 +13,7 @@ function AboutCard() {
             <br />
             I am currently a student at TU-IOST.
             <br />
-            I'm seek learner. I believe.
-            Mesra.
+            I loving solving bugs and logical challanges.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
