@@ -8,7 +8,7 @@ import Footer from "./components/Footer";
 import Resume from "./components/Resume/ResumeNew";
 import {
   BrowserRouter as Router,
-  Route,
+  Route,LinkProps,
   Routes,
   Navigate
 } from "react-router-dom";
