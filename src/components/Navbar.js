@@ -94,17 +94,17 @@ function NavBar() {
 
             <Nav.Item>
               <Nav.Link
-                href="https://www.linkedin.com/in/aakash-dawadi165/"
-                target="_blank"
-                rel="noreferrer"
+                as={Link}
+                to="/articles"
+                onClick={() => updateExpanded(false)}
               >
-                <ImBlog style={{ marginBottom: "2px" }} /> Blogs
+                <ImBlog style={{ marginBottom: "2px" }} /> Articles
               </Nav.Link>
             </Nav.Item>
 
             <Nav.Item className="fork-btn">
               <Button
-                href="https://www.linkedin.com/in/aakash-dawadi165/"
+                href=""
                 target="_blank"
                 className="fork-btn-inner"
               >

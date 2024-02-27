@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import homeLogo from "../../Assets/home-main.svg";
+import homeLogo from "../../Assets/tilicho.jpge.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
@@ -19,11 +19,21 @@ function Home() {
                   👋🏻
                 </span>
               </h1>
+        
 
-              <h1 className="heading-name">
-                I'M 
-                <strong className="main-name"> AAKASH DAWADI </strong>
-              </h1>
+              
+
+<h5 className="bold-name">
+  Welcome to my digital domain! I'm 
+   <strong className="main-name"> Aakash Dawadi </strong>  a  
+  <strong className="main-name"> Computer Science </strong>student based in 
+  <strong className="main-name"> Lalitpur, Nepal </strong> with a profound passion for the ever-evolving realms of computer science and information technology. <br />
+  <br />My proficiency extends to a variety of programming languages and frameworks, as I believe in staying adaptable and embracing the continuous evolution of technology. From crafting elegant lines of code to troubleshooting intricate technical issues, I approach challenges with a blend of analytical thinking and creativity.
+
+</h5>
+
+
+              
 
               <div style={{ padding: 50, textAlign: "left" }}>
                 <Type />
