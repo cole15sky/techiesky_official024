@@ -256,18 +256,18 @@ button:focus {
 
 .home-section {
   position: relative;
-  z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
-  background-position: top center;
+  z-index: -10;
+  background-image: var(--image-gradient), url(./Assets/background.jpg);
+  background-position: right;
   background-repeat: no-repeat;
-  padding-bottom: 30px !important;
-  padding-top: 30px !important;
+  padding-bottom: 100px !important;
+  padding-top: 10npx !important;
 }
 
 .home-content {
-  padding: 9rem 0 2rem !important;
-  color: whitesmoke;
-  text-align: left;
+  padding: 12rem 0 12rem !important;
+  color: rgb(223, 208, 208);
+  text-align: middle;
 }
 
 .heading {
@@ -321,6 +321,12 @@ button:focus {
 }
 
 .home-about-section {
+  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-position: right;
+  background-repeat: no-repeat;
+  padding-bottom: 100px !important;
+  padding-top: 10npx !important;
+
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
