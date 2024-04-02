@@ -97,7 +97,7 @@ function NavBar() {
                 href="https://blog.techiesky.com"
                 onClick={() => updateExpanded(false)}
               > 
-              <ImBlog style={{ marginBottom: "2px" }} /> Articles
+              <ImBlog style={{ marginBottom: "2px" }} /> Blogs
               </Nav.Link>
             </Nav.Item>
 

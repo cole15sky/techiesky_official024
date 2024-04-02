@@ -8,6 +8,10 @@ import editor from "../../Assets/Projects/codeEditor.png";
 import chatify from "../../Assets/sky_kbc.png";
 import suicide from "../../Assets/Projects/suicide.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
+import slider from "../../Assets/slider.png";
+import blog from "../../Assets/blog_sky.png";
+
+
 
 function Projects() {
   return (
@@ -21,6 +25,19 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={slider}
+              isBlog={false}
+              title="Image-Slider"
+              description="This project includes the amazing image slider design with effective slide show and animnation."
+              ghLink="https://github.com/cole15sky/Gallery_img_slider"
+              
+            />
+          </Col>
+
+         
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={chatify}
@@ -31,11 +48,23 @@ function Projects() {
             />
           </Col>
 
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blog}
+              isBlog={false}
+              title="sky_blogs"
+              description="This project includes the amazing image slider design with effective slide show and animnation."
+              ghLink="https://github.com/cole15sky/blog_techiesky"
+              
+            />
+          </Col>
+
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={bitsOfCode}
               isBlog={false}
-              title="Bits-0f-C0de"
+              title="happyaakash.com"
               description="My personal blog page I started on 2022 for my 1st site @happyaakash.com which DNA services are off these days. "
               ghLink="https://github.com/cole15sky/Website_happyaakash"
               
