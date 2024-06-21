@@ -2,14 +2,12 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import leaf from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
-import chatify from "../../Assets/sky_kbc.png";
-import suicide from "../../Assets/Projects/suicide.png";
-import bitsOfCode from "../../Assets/Projects/blog.png";
+import calculator from "../../Assets/ Ss_Calculator.png";
+import toDoList from "../../Assets/Ss_To-Do-List.png";
 import slider from "../../Assets/slider.png";
 import blog from "../../Assets/blog_sky.png";
+import gallery from "../../Assets/gallery_templete.png";
+
 
 
 
@@ -40,11 +38,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={calculator}
               isBlog={false}
-              title="KBC fit.SKY"
-              description="This is my first ever code on this field so I feel this might too consider in the highlights. "
-              ghLink="https://github.com/cole15sky/Sky_SBC"
+              title="Calculator"
+              description="This project allows user to perform basic mathematical calculations i.e (+,-,*,/)"
+              ghLink="https://github.com/cole15sky/Calculator-JS.git"
             />
           </Col>
 
@@ -53,8 +51,8 @@ function Projects() {
             <ProjectCard
               imgPath={blog}
               isBlog={false}
-              title="sky_blogs"
-              description="This project includes the amazing image slider design with effective slide show and animnation."
+              title="blog_techiesky"
+              description="SKY_BLOGS explain the journey of my life in the field of Science and technology."
               ghLink="https://github.com/cole15sky/blog_techiesky"
               
             />
@@ -62,12 +60,22 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={toDoList}
               isBlog={false}
-              title="happyaakash.com"
-              description="My personal blog page I started on 2022 for my 1st site @happyaakash.com which DNA services are off these days. "
-              ghLink="https://github.com/cole15sky/Website_happyaakash"
+              title="To-Do-List"
+              description="This is a simple To-Do List project built using HTML, CSS, and JavaScript. The lil project allows user to add, mark as complete, and delete tasks. "
+              ghLink="https://github.com/cole15sky/To-Do-List"
               
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gallery}
+              isBlog={false}
+              title="Photo Gallery"
+              description=" My recent travel snapshots to highlight my peak moment captured in a images."
+              ghLink="https://github.com/cole15sky/Gallery_templete"
             />
           </Col>
 
